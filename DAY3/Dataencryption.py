@@ -1,0 +1,5 @@
+TEXT=input()
+TEXT=TEXT.replace('A','a')
+TEXT=TEXT.replace('@','#')
+TEXT=TEXT.replace('1','2')
+print(TEXT)

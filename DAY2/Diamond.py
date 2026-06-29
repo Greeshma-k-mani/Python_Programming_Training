@@ -1,0 +1,5 @@
+N=5
+for i in range(N):
+    print(" " *(N-i) + "*" *(2*i+1))
+for i in range(N,-1,-1):
+    print(" " *(N-i) + "*" *(2*i+1))

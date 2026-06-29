@@ -1,0 +1,9 @@
+V=int(input())
+W=int(input())
+a=V*2
+e=W-a
+FW=e//2
+TW=V-FW
+print(FW)
+print(TW)
+

@@ -1,0 +1,8 @@
+TEXT=input()
+TEXT=TEXT.replace('an','')
+TEXT=TEXT.replace('An','')
+TEXT=TEXT.replace('a','')
+TEXT=TEXT.replace('A','')
+TEXT=TEXT.replace('the','')
+TEXT=TEXT.replace('The','')
+print(TEXT)
